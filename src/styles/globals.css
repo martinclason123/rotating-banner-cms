@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "MoonTime-ep";
+  src: url("/fonts/MoonTime-Regular.woff2") format("woff2"),
+    url("/fonts/MoonTime-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque-ep";
+  src: url("/fonts/BrandonGrotesqueCond-Regular.woff2") format("woff2"),
+    url("/fonts/BrandonGrotesqueCond-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque-medium";
+  src: url("/fonts/BrandonGrotesqueCond-Medium.woff2") format("woff2"),
+    url("/fonts/BrandonGrotesqueCond-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BrandonGrotesque-bold";
+  src: url("/fonts/BrandonGrotesqueCond-Bold.woff2") format("woff2"),
+    url("/fonts/BrandonGrotesqueCond-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
